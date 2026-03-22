@@ -1,5 +1,5 @@
 import streamlit as st
-import PyPDF2
+from pypdf import PdfReader
 import re
 
 st.set_page_config(page_title="HIRENIX", layout="centered")
