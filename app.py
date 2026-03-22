@@ -86,7 +86,7 @@ st.markdown("""
 
 # ---------- FUNCTIONS ----------
 def extract_text(pdf):
-    reader = PyPDF2.PdfReader(pdf)
+    reader = PdfReader(pdf)
     text = ""
     for p in reader.pages:
         if p.extract_text():
