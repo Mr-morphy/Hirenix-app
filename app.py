@@ -2,7 +2,7 @@ import streamlit as st
 from pypdf import PdfReader
 import re
 
-st.set_page_config(page_title="HIRENIX", layout="centered")
+st.set_page_config(page_title="HIRENIX",page_icon="icon.png", layout="centered")
 
 # ---------- SESSION ----------
 if "analyzed" not in st.session_state:
